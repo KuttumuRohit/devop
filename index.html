@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>FORM</title>
+    </head>
+    <body>
+        <script>
+            function submitForm() {
+                alert("Form is submitted");
+                location.reload();
+            }
+        </script>
+        <form action="">
+            <label for="name">NAME</label>
+            <input type="text" name="name" id="name"><br>
+            <label for="number">NUMBER</label>
+            <input type="number" name="number" id="number"><br>
+            <label for="email">EMAIL</label>
+            <input type="email" name="email" id="email"><br>
+            <label for="event">EVENT</label>
+            <select id="event" name="event">
+                <option value="DJ CONCERT">DJ CONCERT</option>
+                <option value="CHESS MATCH">CHESS MATCH</option>
+                <option value="PUSHPA 3">PUSHPA 3</option>
+                <option value="NIRAJ'S WEDDING">NIRAJ'S WEDDING</option>
+            </select>
+            <br>
+            <button onclick="submitForm()">Submit</button>
+        </form>
+    </body>
+</html>
